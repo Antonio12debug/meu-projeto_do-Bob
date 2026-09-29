@@ -1,0 +1,66 @@
+===================================================
+  RELATORIO DE TESTES -- Slash Commands DIO Explorer
+  Executado em: 29/09/2026, 19:04:35
+===================================================
+
+[PASS] JSON carregado sem erros
+[PASS] JSON possui propriedade trilhas
+[PASS] JSON possui ao menos 30 trilhas -> total: 30
+[PASS] Cada trilha tem campo nome
+[PASS] Cada trilha tem campo tecnologia
+[PASS] Cada trilha tem campo nivel
+[PASS] Cada trilha tem xp_total numerico
+[PASS] Cada trilha tem badges_disponiveis
+[PASS] Cada trilha tem promocao objeto
+[PASS] Cada trilha tem vitalicio booleano
+[PASS] Cada trilha tem lives_ao_vivo array
+[PASS] /trilha Java - encontrada
+[PASS] /trilha Java - nome correto -> nome: Formação Java Developer
+[PASS] /trilha Java - tecnologia Java
+[PASS] /trilha Java - nivel Intermediario -> nivel: Intermediário
+[PASS] /trilha Java - 10 modulos
+[PASS] /trilha Java - xp_total 18600
+[PASS] /trilha Java - 3 badges
+[PASS] /trilha Java - badge Java Developer
+[PASS] /trilha Java - tem lives
+[PASS] /trilha - formatPlanoEstudos retorna obj
+[PASS] /trilha - plano tem xp 18600
+[PASS] /trilha - plano vitalicio Sim
+[PASS] /trilha - busca case-insensitive
+[PASS] /trilha - busca parcial Spring (badge)
+[PASS] /trilha - inexistente retorna null
+[PASS] /desafio Java Iniciante - retorna obj
+[PASS] /desafio Java Iniciante - xp 500
+[PASS] /desafio Java Iniciante - tempo 30min
+[PASS] /desafio Java Iniciante - tem titulo
+[PASS] /desafio Java Iniciante - 3 casos
+[PASS] /desafio Java Intermediario - xp 1000
+[PASS] /desafio Java Intermediario - tempo 60
+[PASS] /desafio Java Avancado - xp 2000
+[PASS] /desafio Java Avancado - tempo 120
+[PASS] /desafio nivel invalido retorna null
+[PASS] /desafio Python usa fallback titulo
+[PASS] /certificado - retorna objeto
+[PASS] /certificado - codigo formato DIO-XXXX
+[PASS] /certificado - nome usuario correto
+[PASS] /certificado - trilha Java
+[PASS] /certificado - markdown gerado
+[PASS] /certificado - markdown tem nome aluno
+[PASS] /certificado - markdown tem link DIO
+[PASS] /certificado - markdown tem badges
+[PASS] /certificado - arquivo md salvo -> C:\Users\Antonio\Documents\meu-projeto_do-Bob\dio_explore\docs\certificados-emetidos\antonio_silva-formao_java_developer.md
+[PASS] /certificado - conteudo valido
+[PASS] /certificado - null para nome vazio
+[PASS] /certificado - null para trilha null
+
+===================================================
+  RESUMO
+===================================================
+Total de testes : 49
+Aprovados       : 49
+Reprovados      : 0
+Cobertura       : 100.0%
+Meta (>= 70%)   : ATINGIDA
+
+Certificado salvo em: C:\Users\Antonio\Documents\meu-projeto_do-Bob\dio_explore\docs\certificados-emetidos\antonio_silva-formao_java_developer.md
+===================================================
