@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "dio-mcp-server": {
+      "command": "node",
+      "args": ["${workspaceFolder}/MCP/build/index.js"]
+    }
+  }
+}
